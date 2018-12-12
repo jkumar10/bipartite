@@ -87,8 +87,8 @@ def result(flag,red,blue):
     elif flag==0:
         print "Graph is Bipartite"
         print "Two partitions are:"
-        print red
-        print blue
+        print "First partition: {}".format(red)
+        print "Second partition: {}".format(blue)
 
 
 
